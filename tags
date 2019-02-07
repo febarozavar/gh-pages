@@ -1,0 +1,121 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/5a2b65f8/
+*	libs\\remark-css\\default.css	/^.pull-right ~ * {$/;"	s
+.clear	libs\\remark-css\\metropolis.css	/^.clear{$/;"	c
+.code10 .remark-code	libs\\remark-css\\metropolis.css	/^.code10 .remark-code {$/;"	c
+.code100 .remark-code	libs\\remark-css\\metropolis.css	/^.code100 .remark-code {$/;"	c
+.code20 .remark-code	libs\\remark-css\\metropolis.css	/^.code20 .remark-code {$/;"	c
+.code30 .remark-code	libs\\remark-css\\metropolis.css	/^.code30 .remark-code {$/;"	c
+.code40 .remark-code	libs\\remark-css\\metropolis.css	/^.code40 .remark-code {$/;"	c
+.code50 .remark-code	libs\\remark-css\\metropolis.css	/^.code50 .remark-code {$/;"	c
+.code60 .remark-code	libs\\remark-css\\metropolis.css	/^.code60 .remark-code {$/;"	c
+.code70 .remark-code	libs\\remark-css\\metropolis.css	/^.code70 .remark-code {$/;"	c
+.code80 .remark-code	libs\\remark-css\\metropolis.css	/^.code80 .remark-code {$/;"	c
+.code90 .remark-code	libs\\remark-css\\metropolis.css	/^.code90 .remark-code {$/;"	c
+.font10	libs\\remark-css\\metropolis.css	/^.font10 {$/;"	c
+.font100	libs\\remark-css\\metropolis.css	/^.font100 {$/;"	c
+.font110	libs\\remark-css\\metropolis.css	/^.font110 {$/;"	c
+.font120	libs\\remark-css\\metropolis.css	/^.font120 {$/;"	c
+.font130	libs\\remark-css\\metropolis.css	/^.font130 {$/;"	c
+.font140	libs\\remark-css\\metropolis.css	/^.font140 {$/;"	c
+.font150	libs\\remark-css\\metropolis.css	/^.font150 {$/;"	c
+.font160	libs\\remark-css\\metropolis.css	/^.font160 {$/;"	c
+.font170	libs\\remark-css\\metropolis.css	/^.font170 {$/;"	c
+.font180	libs\\remark-css\\metropolis.css	/^.font180 {$/;"	c
+.font190	libs\\remark-css\\metropolis.css	/^.font190 {$/;"	c
+.font20	libs\\remark-css\\metropolis.css	/^.font20 {$/;"	c
+.font200	libs\\remark-css\\metropolis.css	/^.font200 {$/;"	c
+.font30	libs\\remark-css\\metropolis.css	/^.font30 {$/;"	c
+.font40	libs\\remark-css\\metropolis.css	/^.font40 {$/;"	c
+.font50	libs\\remark-css\\metropolis.css	/^.font50 {$/;"	c
+.font60	libs\\remark-css\\metropolis.css	/^.font60 {$/;"	c
+.font70	libs\\remark-css\\metropolis.css	/^.font70 {$/;"	c
+.font80	libs\\remark-css\\metropolis.css	/^.font80 {$/;"	c
+.font90	libs\\remark-css\\metropolis.css	/^.font90 {$/;"	c
+.footnote	libs\\remark-css\\default.css	/^.footnote {$/;"	c
+.inverse	libs\\remark-css\\default.css	/^.inverse {$/;"	c
+.inverse	libs\\remark-css\\metropolis.css	/^.inverse {$/;"	c
+.inverse .remark-slide-number	libs\\remark-css\\metropolis.css	/^.inverse .remark-slide-number {$/;"	c
+.inverse h1	libs\\remark-css\\default.css	/^.inverse h1, .inverse h2, .inverse h3 {$/;"	s
+.inverse h2	libs\\remark-css\\default.css	/^.inverse h1, .inverse h2, .inverse h3 {$/;"	s
+.inverse h3	libs\\remark-css\\default.css	/^.inverse h1, .inverse h2, .inverse h3 {$/;"	s
+.left-column	libs\\remark-css\\default.css	/^.left-column {$/;"	c
+.left-column h2:last-of-type	libs\\remark-css\\default.css	/^.left-column h2:last-of-type, .left-column h3:last-child {$/;"	s
+.left-column h3:last-child	libs\\remark-css\\default.css	/^.left-column h2:last-of-type, .left-column h3:last-child {$/;"	s
+.pull-left	libs\\remark-css\\default.css	/^.pull-left {$/;"	c
+.pull-left > h2	libs\\remark-css\\metropolis.css	/^.remark-slide-content > h2, .pull-left > h2, .pull-right > h2 {$/;"	s
+.pull-left > h3	libs\\remark-css\\metropolis.css	/^.pull-left > h3, .pull-left > h4, .pull-right > h3, .pull-right > h4 {$/;"	s
+.pull-left > h4	libs\\remark-css\\metropolis.css	/^.pull-left > h3, .pull-left > h4, .pull-right > h3, .pull-right > h4 {$/;"	s
+.pull-right	libs\\remark-css\\default.css	/^.pull-right {$/;"	c
+.pull-right	libs\\remark-css\\default.css	/^.pull-right ~ * {$/;"	c
+.pull-right > h2	libs\\remark-css\\metropolis.css	/^.remark-slide-content > h2, .pull-left > h2, .pull-right > h2 {$/;"	s
+.pull-right > h3	libs\\remark-css\\metropolis.css	/^.pull-left > h3, .pull-left > h4, .pull-right > h3, .pull-right > h4 {$/;"	s
+.pull-right > h4	libs\\remark-css\\metropolis.css	/^.pull-left > h3, .pull-left > h4, .pull-right > h3, .pull-right > h4 {$/;"	s
+.remark-code	libs\\remark-css\\metropolis-fonts.css	/^.remark-code, .remark-inline-code {$/;"	c
+.remark-code-line-highlighted	libs\\remark-css\\default.css	/^.remark-code-line-highlighted     { background-color: #ffff88; }$/;"	c
+.remark-inline-code	libs\\remark-css\\metropolis-fonts.css	/^.remark-code, .remark-inline-code {$/;"	c
+.remark-inline-code	libs\\remark-css\\metropolis.css	/^.remark-inline-code {$/;"	c
+.remark-slide table	libs\\remark-css\\default.css	/^.remark-slide table {$/;"	s
+.remark-slide table thead th	libs\\remark-css\\default.css	/^.remark-slide table thead th { border-bottom: 1px solid #ddd; }$/;"	s
+.remark-slide tfoot	libs\\remark-css\\default.css	/^.remark-slide thead, .remark-slide tfoot, .remark-slide tr:nth-child(even) { background: #eee }$/;"	s
+.remark-slide thead	libs\\remark-css\\default.css	/^.remark-slide thead, .remark-slide tfoot, .remark-slide tr:nth-child(even) { background: #eee }$/;"	s
+.remark-slide tr:nth-child(even)	libs\\remark-css\\default.css	/^.remark-slide thead, .remark-slide tfoot, .remark-slide tr:nth-child(even) { background: #eee }$/;"	s
+.remark-slide-content	libs\\remark-css\\metropolis.css	/^.remark-slide-content {$/;"	c
+.remark-slide-content > h1	libs\\remark-css\\metropolis.css	/^.remark-slide-content > h1 {$/;"	s
+.remark-slide-content > h2	libs\\remark-css\\metropolis.css	/^.remark-slide-content > h2, .pull-left > h2, .pull-right > h2 {$/;"	s
+.remark-slide-content > h2	libs\\remark-css\\metropolis.css	/^.remark-slide-content > h2, h3, h4 {$/;"	s
+.remark-slide-content > h3	libs\\remark-css\\metropolis.css	/^.remark-slide-content > h3, .remark-slide-content > h4,$/;"	s
+.remark-slide-content > h4	libs\\remark-css\\metropolis.css	/^.remark-slide-content > h3, .remark-slide-content > h4,$/;"	s
+.remark-slide-content > inverse	libs\\remark-css\\metropolis.css	/^.remark-slide-content > inverse {$/;"	s
+.remark-slide-number	libs\\remark-css\\metropolis.css	/^.remark-slide-number {$/;"	c
+.remark-slide-scaler	libs\\remark-css\\default.css	/^  .remark-slide-scaler {$/;"	c
+.right-column	libs\\remark-css\\default.css	/^.right-column {$/;"	c
+.title-slide	libs\\remark-css\\metropolis.css	/^.title-slide {$/;"	c
+.title-slide .inverse .remark-slide-content	libs\\remark-css\\metropolis.css	/^.title-slide .inverse .remark-slide-content {$/;"	c
+.title-slide .remark-slide-number	libs\\remark-css\\metropolis.css	/^.title-slide .remark-slide-number {$/;"	c
+.title-slide > h1	libs\\remark-css\\metropolis.css	/^.title-slide > h1  {$/;"	s
+.title-slide > h2	libs\\remark-css\\metropolis.css	/^.title-slide > h2  {$/;"	s
+.title-slide > h3	libs\\remark-css\\metropolis.css	/^.title-slide > h3  {$/;"	s
+AnonymousFunction9c7bbf040100	libs\\remark-latest.min.js	/^require=function e(t,a,r){function s(i,l){if(!a[i]){if(!t[i]){var o="function"==typeof require&&/;"	f
+a	libs\\remark-css\\default.css	/^a, a > code {$/;"	s
+a > code	libs\\remark-css\\default.css	/^a, a > code {$/;"	s
+blockquote	libs\\remark-css\\default.css	/^blockquote {$/;"	s
+body	libs\\remark-css\\metropolis-fonts.css	/^body {$/;"	s
+chunk_definitions	.Rproj.user\\shared\\notebooks\\264704FB-pesentation\\1\\40C64CF2F8B8135B\\chunks.json	/^{"chunk_definitions":[],"doc_write_time":1549543404}/;"	a
+chunk_definitions	.Rproj.user\\shared\\notebooks\\264704FB-pesentation\\1\\s\\chunks.json	/^{"chunk_definitions":[],"doc_write_time":1549543404}/;"	a
+clip1	pesentation_files\\figure-html\\cars-1.svg	/^<clipPath id="clip1">$/;"	i
+doc_write_time	.Rproj.user\\shared\\notebooks\\264704FB-pesentation\\1\\40C64CF2F8B8135B\\chunks.json	/^{"chunk_definitions":[],"doc_write_time":1549543404}/;"	n
+doc_write_time	.Rproj.user\\shared\\notebooks\\264704FB-pesentation\\1\\s\\chunks.json	/^{"chunk_definitions":[],"doc_write_time":1549543404}/;"	n
+e	libs\\remark-latest.min.js	/^require=function e(t,a,r){function s(i,l){if(!a[i]){if(!t[i]){var o="function"==typeof require&&/;"	f
+glyph0-0	pesentation_files\\figure-html\\cars-1.svg	/^<symbol overflow="visible" id="glyph0-0">$/;"	i
+glyph0-1	pesentation_files\\figure-html\\cars-1.svg	/^<symbol overflow="visible" id="glyph0-1">$/;"	i
+glyph0-10	pesentation_files\\figure-html\\cars-1.svg	/^<symbol overflow="visible" id="glyph0-10">$/;"	i
+glyph0-11	pesentation_files\\figure-html\\cars-1.svg	/^<symbol overflow="visible" id="glyph0-11">$/;"	i
+glyph0-2	pesentation_files\\figure-html\\cars-1.svg	/^<symbol overflow="visible" id="glyph0-2">$/;"	i
+glyph0-3	pesentation_files\\figure-html\\cars-1.svg	/^<symbol overflow="visible" id="glyph0-3">$/;"	i
+glyph0-4	pesentation_files\\figure-html\\cars-1.svg	/^<symbol overflow="visible" id="glyph0-4">$/;"	i
+glyph0-5	pesentation_files\\figure-html\\cars-1.svg	/^<symbol overflow="visible" id="glyph0-5">$/;"	i
+glyph0-6	pesentation_files\\figure-html\\cars-1.svg	/^<symbol overflow="visible" id="glyph0-6">$/;"	i
+glyph0-7	pesentation_files\\figure-html\\cars-1.svg	/^<symbol overflow="visible" id="glyph0-7">$/;"	i
+glyph0-8	pesentation_files\\figure-html\\cars-1.svg	/^<symbol overflow="visible" id="glyph0-8">$/;"	i
+glyph0-9	pesentation_files\\figure-html\\cars-1.svg	/^<symbol overflow="visible" id="glyph0-9">$/;"	i
+glyph1-0	pesentation_files\\figure-html\\cars-1.svg	/^<symbol overflow="visible" id="glyph1-0">$/;"	i
+glyph1-1	pesentation_files\\figure-html\\cars-1.svg	/^<symbol overflow="visible" id="glyph1-1">$/;"	i
+glyph1-2	pesentation_files\\figure-html\\cars-1.svg	/^<symbol overflow="visible" id="glyph1-2">$/;"	i
+glyph1-3	pesentation_files\\figure-html\\cars-1.svg	/^<symbol overflow="visible" id="glyph1-3">$/;"	i
+glyph1-4	pesentation_files\\figure-html\\cars-1.svg	/^<symbol overflow="visible" id="glyph1-4">$/;"	i
+h3	libs\\remark-css\\metropolis.css	/^.remark-slide-content > h2, h3, h4 {$/;"	s
+h4	libs\\remark-css\\metropolis.css	/^.remark-slide-content > h2, h3, h4 {$/;"	s
+iframe	libs\\remark-css\\default.css	/^img, video, iframe {$/;"	s
+img	libs\\remark-css\\default.css	/^img, video, iframe {$/;"	s
+require	libs\\remark-latest.min.js	/^require=function e(t,a,r){function s(i,l){if(!a[i]){if(!t[i]){var o="function"==typeof require&&/;"	f
+s	libs\\remark-latest.min.js	/^require=function e(t,a,r){function s(i,l){if(!a[i]){if(!t[i]){var o="function"==typeof require&&/;"	f	function:require
+surface131	pesentation_files\\figure-html\\cars-1.svg	/^<g id="surface131">$/;"	i
+td	libs\\remark-css\\default.css	/^th, td { padding: 5px; }$/;"	s
+th	libs\\remark-css\\default.css	/^th, td { padding: 5px; }$/;"	s
+video	libs\\remark-css\\default.css	/^img, video, iframe {$/;"	s

@@ -1,0 +1,190 @@
+---
+title: "M4, 100 000 времеви редове, статистика vs. ML,  RNN с LSTM"
+subtitle: "... и малко Keras за десерт"
+lang: bg
+author: "EL"
+date: "2019-02-07 (обновен: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    chakra: libs/remark-latest.min.js
+    css: [default, metropolis, metropolis-fonts]
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+class: inverse, center, middle
+
+# "Makridakis Competitions" или "М&#8209;Competitions"
+
+
+---
+
+# Какво е _М-Competition_? 
+
+* **Състезание за прогнозиране**
+ 
+* **Първото** е през **1982** година
+
+* **Четвъртото състезание (_М4_)** е проведено **от 1 януари до 18 май 2018 г.** <https://www.mcompetitions.unic.ac.cy/>
+
+* **100 хил.** времеви серии от **6 области** и **6 различни честоти** (<https://www.mcompetitions.unic.ac.cy/the-dataset/>)
+
+* Решенията са на `R` и на практика представят всички основни статистически и ML методи.
+
+* Решенията могат да бъдат намерени на <https://github.com/M4Competition/M4-methods>
+
+* Официалните правила на състезанието <https://www.m4.unic.ac.cy/wp-content/uploads/2018/03/M4-Competitors-Guide.pdf>
+
+---
+
+class: inverse, center, middle
+
+# M4 Competition - набор от данни 
+
+![100_000_Серии](/img/m4_ts_table.png)
+
+Източник: <https://eng.uber.com/m4-forecasting-competition/>
+
+---
+
+# Резултати от _М4-Competition_
+
+* Първоначалните резултати са публикувани в ***"International Journal of Forecasting"*** на **21 юни 2018 г.**, като названието на статията е _["The M4 Competition: Results, findings, conclusion and way forward"](./assets/The_M4_Competition_Results_findings_conclusion_and_way_forward.pdf)_.
+
+* Някои интересни заключения:
+	- _"The **six pure ML methods** that were submitted in the M4 **all performed poorly**, with none of them being more accurate than Comb and only one being more accurate than Naïve2."_
+	
+	- _"The combination of methods was the king of the M4. **Of the 17 most accurate methods, 12 were 'combinations' of mostly statistical approaches.**"_
+	
+	- _"**The biggest surprise was a 'hybrid' approach that utilized both statistical and ML features**. This method **produced both the most accurate forecasts and the most precise PIs**, and was submitted by Slawek Smyl, a Data Scientist at Uber Technologies. According to sMAPE, it was close to 10% more accurate than the combination (Comb) benchmark of the competition (see below), which is a huge improvement. **It is noted that the best method in the M3 Competition (Makridakis & Hibon, 2000) was only 4% more accurate than the same combination**"_
+
+---
+
+class: inverse, center, middle
+
+# Победители в състезанието
+![М4_Winners](/img/m4_winners.jpg)
+
+---
+
+# Моделът победител...
+
+## Exponential Smoothing - Recurrent Neural Network (ES-RNN) Hybrid Models 
+
+### Short Description:
+>Hybrid models, mixing hand-coded parts, like some Exponential Smoothing (ES) formulas, with a black-box Recurrent Neural Network (RNN) forecasting engine. The models do not constitute an ensemble of Exponential Smoothing (ES) and Neural Networks (NN) – instead, they are truly hybrid algorithms in which all parameters, like the initial ES seasonality and smoothing coefficients, are fitted concurrently with the NN weights by the same Gradient Descent method. Additionally, these are hierarchical models, in a sense that they use both global, applicable to all series, parameters (the NN weights) and per-time- series parameters (like seasonality and smoothing coefficients).  
+[pdf](./assets/ES_RNN_SlawekSmyl.pdf)
+
+***Статия:*** [M4 Forecasting Competition: Introducing a New Hybrid ES-RNN Model](https://eng.uber.com/m4-forecasting-competition/)
+
+***Повече инфо/код:*** <https://github.com/M4Competition/M4-methods/tree/slaweks_ES-RNN>
+
+---
+
+class: inverse, center, middle
+
+![sb](./img/sb_and_book.gif)
+
+---
+
+class: inverse, center, middle
+
+# _...How is it really done? I doubt you can do it in Keras, as you need a low-level control. **I was using DyNet and coded in C++**. ..._
+
+
+![rock](/img/the_rock.gif)
+
+---
+
+class: inverse, center, middle
+
+# Време за десерт...*
+
+![horn](/img/dragon_horn.gif)
+
+_Keras_(κέρας) означава "рог" на гръцки.
+
+---
+
+# Keras
+
+>_Keras is a high-level neural networks API developed with a focus on enabling fast experimentation. Being able to go from idea to result with the least possible delay is key to doing good research._
+
+## The 2-ways ...  
+
+### I._Sequential Model_ (the easy and mostly sufficient) 
+
+### II._Functional API_ (... and the hard but rewarding...)
+
+## Още?
+
+Изчерпателна информация: <https://keras.rstudio.com/index.html>
+
+Примери: <https://keras.rstudio.com/articles/examples/index.html>
+
+---
+
+# The Path of the _Sequential Model_
+
+### 1. Import keras
+
+```r
+*library(keras)
+install_keras() # Инсталира python средата в venv
+```
+
+### 2. Prep and split data
+
+### 3. Define model and add layers
+
+```r
+*model <- keras_model_sequential()
+model %>% 
+    {{layer_dense(...) %>%}}
+    {{layer_dropout(...) %>%}}
+  ...
+```
+
+---
+
+# The Path of the _Sequential Model_ (cont.)
+
+### 4. Compile the model
+
+```r
+*model %>% compile(
+  loss = 'categorical_crossentropy',
+  optimizer = optimizer_rmsprop(),
+  metrics = c('accuracy')
+)
+```
+
+### 5. Fit the model (Train)
+
+```r
+*model %>% fit(
+  x_train, y_train, 
+  epochs = 30, batch_size = 128, 
+  validation_split = 0.2
+)
+```
+
+### 6. Evaluate
+
+```r
+*model %>% evaluate(x_test, y_test)
+```
+
+---
+
+class: inverse, center, bottom
+
+# Благодаря за вниманието
+
+
+
+![drop it like its hot](/img/mic_drop.gif)
+
